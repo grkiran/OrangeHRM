@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
+  <!--in base class-->
+  <parameter name="browsername" value=""></parameter>
     <classes>
       <class name="com.orangehrm.webapplication.WebBrowser"/>
       <class name="com.orangehrm.webapplication.AllFunctions"/>

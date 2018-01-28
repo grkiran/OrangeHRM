@@ -5,6 +5,8 @@
     <classes>
       <class name="com.orangehrm.webapplication.WebBrowser">
         <methods>
+          <include name="closeBrowser"/>
+          <include name="browserSelect"/>
           <include name="browser"/>
         </methods>
       </class> <!-- com.orangehrm.webapplication.WebBrowser -->

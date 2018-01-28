@@ -2,15 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12070" started-at="2018-01-01T14:29:26Z" finished-at="2018-01-01T14:29:38Z">
+  <suite name="Default suite" duration-ms="18497" started-at="2018-01-09T05:39:40Z" finished-at="2018-01-09T05:39:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12070" started-at="2018-01-01T14:29:26Z" finished-at="2018-01-01T14:29:38Z">
+    <test name="Default test" duration-ms="18497" started-at="2018-01-09T05:39:40Z" finished-at="2018-01-09T05:39:59Z">
       <class name="com.orangehrm.webapplication.WebBrowser">
-        <test-method status="PASS" signature="browser()[pri:0, instance:com.orangehrm.webapplication.WebBrowser@548a9f61]" name="browser" duration-ms="12043" started-at="2018-01-01T19:59:26Z" finished-at="2018-01-01T19:59:38Z">
+        <test-method status="PASS" signature="browserSelect(java.lang.String)[pri:0, instance:com.orangehrm.webapplication.WebBrowser@cb5822]" name="browserSelect" is-config="true" duration-ms="4360" started-at="2018-01-09T11:09:40Z" finished-at="2018-01-09T11:09:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[none]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSelect -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.orangehrm.webapplication.WebBrowser@cb5822]" name="browser" duration-ms="8926" started-at="2018-01-09T11:09:45Z" finished-at="2018-01-09T11:09:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrm.webapplication.WebBrowser@cb5822]" name="closeBrowser" is-config="true" duration-ms="5165" started-at="2018-01-09T11:09:54Z" finished-at="2018-01-09T11:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.orangehrm.webapplication.WebBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
